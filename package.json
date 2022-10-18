@@ -1,0 +1,39 @@
+{
+  "name": "bookshelf-api-nodejs",
+  "version": "1.0.0",
+  "description": "bookshelf api using nodejs hapi framework",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start:dev": "nodemon ./src/server.js",
+    "start:prod": "NODE_ENV=production node ./src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://gitlab.com/pratamailham206/bookshelf-api-nodejs.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "ilham pratama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/pratamailham206/bookshelf-api-nodejs/issues"
+  },
+  "homepage": "https://gitlab.com/pratamailham206/bookshelf-api-nodejs#readme",
+  "dependencies": {
+    "@hapi/hapi": "^20.2.2",
+    "nanoid": "^4.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.2",
+    "eslint-plugin-promise": "^6.0.0",
+    "nodemon": "^2.0.16",
+    "prettier": "2.6.2"
+  }
+}
